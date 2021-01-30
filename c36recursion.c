@@ -12,6 +12,6 @@ int fact(int n)
 {
     int i;
     if(n != 1)
-        return n * fact(n-1);
+        return n * fact(n-1); //function is calling itself
     return 1;
 }
